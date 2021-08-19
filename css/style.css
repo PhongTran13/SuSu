@@ -161,6 +161,7 @@ font-size:2rem;
   color:var(--black);
   cursor: pointer;
   display: none;
+ 
 }
 
 
@@ -645,6 +646,7 @@ footer{
 
   #menu-bar{
     display: initial;
+    z-index: 99;
   }
 
   .header-2 .navbar{
@@ -653,6 +655,7 @@ footer{
     background:var(--black);
     padding:1rem 2rem;
     display: none;
+     z-index: 99;
   }
 
   .header-2 .navbar.active{
